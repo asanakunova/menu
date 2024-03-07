@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #95b9c9;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+#header {
+  padding: 10px 0;
+  background: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+nav a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+a.active {
+  color: red;
+}
+#menu {
+  padding: 30px 0;
+}
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0 0 25px 0;
+}
+.menu_blocks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.menu_box {
+  padding: 20px;
+  text-align: center;
+  width: 315px;
+  height: 276px;
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+.menu_box:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.menu img {
+  width: 100%;
+  height: 180px;
+}
+.box_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.box_text h4 {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.box_price {
+  display: flex;
+  align-items: center;
+  width: 315px;
+  justify-content: space-between;
+}
+.box_price h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.box_price button {
+  width: 160px;
+  height: 43px;
+  border-radius: 10px;
+  background: #ddaa27;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+}
+
+/* Rectangle 7 */
+
+#orders {
+  padding: 35px 0;
+}
+.orders_blocks {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.orders_box {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  width: 886px;
+  height: 130px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+}
+.orders_box_1 {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.orders_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.orders_text h1 {
+  width: 270px;
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+.orders_text p {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 4%;
+}
+.orders_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+.orders_button button {
+  border: none;
+  width: 188px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgb(189, 29, 29);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3%;
+}
+.orders_button_blocks {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+.orders_button_blocks button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgb(221, 170, 39);
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 3%;
+}
+.orders_button_blocks h3 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 3%;
+}
+
+#admin {
+  padding: 30px 0;
+}
+.admin_blocks {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.admin_blocks input {
+  padding-left: 30px;
+  width: 549px;
+  height: 67px;
+  border-radius: 10px;
+  background: rgb(217, 217, 217);
+  border: none;
+  color: #0000008f;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+input::placeholder {
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+.admin_blocks input:focus {
+  background: white;
+  border: #fff;
+  color: #000000cc;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+}
+.admin_blocks button {
+  border: none;
+  width: 254.1px;
+  height: 80px;
+  border-radius: 10px;
+  background: rgb(221, 170, 39);
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 3%;
+}
